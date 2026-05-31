@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SpeakCount: Voice Counter Timer - A powerful voice counter and countdown timer for workouts, fitness training, breathing exercises, meditation, and focus sessions.">
+    <meta name="keywords" content="voice counter, workout counter, rep counter, meditation timer, fitness app, breathing exercises">
+    <meta name="author" content="Awesome All App">
+    <title>SpeakCount: Voice Counter Timer | Awesome All App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .download-badges {
+            margin: 20px 0;
+        }
+        .badge {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+        }
+        .badge:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        main {
+            background: white;
+            padding: 40px 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        .nav {
+            background: #333;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        .nav a:hover {
+            color: #667eea;
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #666;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .contact-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .contact-box p {
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 10px 5px;
+        }
+        .btn:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SpeakCount</h1>
+        <p>Voice Counter Timer for Workouts & Meditation</p>
+        <div class="download-badges">
+            <a href="#" class="badge">Google Play (Coming Soon)</a>
+            <a href="#" class="badge">App Store (Coming Soon)</a>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="privacypolicy.md">Privacy Policy</a>
+        <a href="terms.md">Terms of Service</a>
+        <a href="about.md">About</a>
+        <a href="contact.md">Contact</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>🎤 Voice Counter</h3>
+                    <p>Hear every number spoken clearly</p>
+                </div>
+                <div class="feature">
+                    <h3>🏋️ Workout Timer</h3>
+                    <p>Perfect for reps and sets</p>
+                </div>
+                <div class="feature">
+                    <h3>🧘 Meditation</h3>
+                    <p>Breathing exercises & mindfulness</p>
+                </div>
+                <div class="feature">
+                    <h3>📳 Vibration</h3>
+                    <p>Haptic feedback for every count</p>
+                </div>
+            </div>
+
+            <h2>What You Can Do</h2>
+            <ul>
+                <li>Create custom counting routines</li>
+                <li>Set multiple rounds with rest periods</li>
+                <li>Choose forward or reverse counting</li>
+                <li>Adjust counting speed</li>
+                <li>Use for push-ups, squats, meditation, and more</li>
+                <li>Works offline - no internet needed</li>
+            </ul>
+
+            <h2>Perfect For</h2>
+            <ul>
+                <li>Push Ups, Squats, Sit Ups, Pull Ups</li>
+                <li>HIIT Workouts & Circuit Training</li>
+                <li>Box Breathing & Deep Breathing</li>
+                <li>Meditation & Mindfulness</li>
+                <li>Home Workouts & Gym Training</li>
+            </ul>
+
+            <h2>Privacy First</h2>
+            <div class="contact-box">
+                <p><strong>✓</strong> No personal data collection</p>
+                <p><strong>✓</strong> No account required</p>
+                <p><strong>✓</strong> Data stored locally on device</p>
+                <p><strong>✓</strong> Works offline</p>
+            </div>
+
+            <h2>Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Developer:</strong> Awesome All App</p>
+                <p><strong>Email:</strong> <a href="mailto:ninhhoa94@gmail.com">ninhhoa94@gmail.com</a></p>
+                <p><strong>Location:</strong> Vietnam</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="privacypolicy.md" class="btn">Privacy Policy</a>
+                <a href="terms.md" class="btn">Terms of Service</a>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>
+            <a href="privacypolicy.md">Privacy Policy</a> |
+            <a href="terms.md">Terms of Service</a> |
+            <a href="about.md">About</a> |
+            <a href="contact.md">Contact</a>
+        </p>
+        <p style="margin-top: 10px;">© 2026 Awesome All App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
