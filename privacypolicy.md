@@ -1,4 +1,4 @@
-# Privacy Policy for SpeakCount
+# Privacy Policy for SpeakC
 
 **Last updated:** May 31, 2026  
 **Effective Date:** May 31, 2026  
@@ -8,7 +8,7 @@
 
 ## 1. Introduction
 
-Welcome to **SpeakCount** (the "App"), a counting and focus timer application developed by **Awesome All App** (the "Developer"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our application.
+Welcome to **SpeakC** (the "App"), a voice counter and countdown timer application developed by **Awesome All App** (the "Developer"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our application.
 
 By downloading, installing, or using the App, you agree to the terms of this Privacy Policy. If you do not agree with this policy, please do not use the App.
 
@@ -22,7 +22,7 @@ By downloading, installing, or using the App, you agree to the terms of this Pri
 
 | Data Type | Purpose | Stored Where |
 |-----------|---------|--------------|
-| Counting routines & settings | App functionality | Device only (local) |
+| Custom routines & settings | App functionality | Device only (local) |
 | Usage analytics | Improve app experience | Firebase (Google) |
 | Crash logs | Fix bugs | Firebase (Google) |
 | Advertising ID | Display ads | Google AdMob |
@@ -32,7 +32,7 @@ By downloading, installing, or using the App, you agree to the terms of this Pri
 
 The App stores the following information **locally on your device** only:
 
-- **Counting Routines:** Names, count settings, rounds, speed
+- **Counting Routines:** Names, count settings, rounds, speed, rest periods
 - **App Settings:** Voice preferences, vibration settings, theme
 - **Usage History:** Session records (counts completed, time spent)
 
@@ -120,7 +120,7 @@ We **DO NOT** request the following sensitive permissions:
 | Permission | Status |
 |------------|--------|
 | Camera | ❌ Not requested |
-| Microphone | ❌ Not requested |
+| Microphone | ❌ Not requested (we use system TTS, not recording) |
 | Location (GPS) | ❌ Not requested |
 | Contacts | ❌ Not requested |
 | SMS | ❌ Not requested |
@@ -128,6 +128,8 @@ We **DO NOT** request the following sensitive permissions:
 | Calendar | ❌ Not requested |
 | Storage / Files | ❌ Not requested (Android 11+) |
 | Nearby Devices | ❌ Not requested |
+| Body Sensors | ❌ Not requested |
+| Activity Recognition | ❌ Not requested |
 
 ---
 
@@ -228,7 +230,7 @@ While we implement security measures, no method of electronic transmission or st
 ### 8.2 Data Deletion
 
 **To delete your local data:**
-- **Android:** Settings → Apps → SpeakCount → Storage → Clear Data
+- **Android:** Settings → Apps → SpeakC → Storage → Clear Data
 - **Alternative:** Uninstall the App
 
 **To delete Firebase Analytics data:**
@@ -313,7 +315,7 @@ For users in other regions, this Privacy Policy applies. Contact us if you have 
 | Right | How to Exercise |
 |-------|------------------|
 | View data | Open App → Settings |
-| Delete local data | Settings → Apps → SpeakCount → Clear Data |
+| Delete local data | Settings → Apps → SpeakC → Clear Data |
 | Uninstall | Remove App from device |
 | Opt out of ads | Settings → Google → Ads → Delete advertising ID |
 
@@ -321,7 +323,7 @@ For users in other regions, this Privacy Policy applies. Contact us if you have 
 
 For any privacy-related requests, contact:
 - **Email:** ninhhoa94@gmail.com
-- **Subject:** Privacy Request - SpeakCount
+- **Subject:** Privacy Request - SpeakC
 
 We will respond within 30 days.
 
@@ -355,7 +357,7 @@ Continued use of the App after changes constitutes acceptance of the new policy.
 **Privacy Policy URL:** [https://hoaninh94.github.io/speakcount-privacy/](https://hoaninh94.github.io/speakcount-privacy/)  
 **GitHub:** [https://github.com/hoaninh94/speakcount-privacy](https://github.com/hoaninh94/speakcount-privacy)
 
-For questions or concerns about this Privacy Policy, please contact us at ninhhoa94@gmail.com with the subject "Privacy Policy - SpeakCount".
+For questions or concerns about this Privacy Policy, please contact us at ninhhoa94@gmail.com with the subject "Privacy Policy - SpeakC".
 
 ---
 
@@ -371,6 +373,7 @@ For questions or concerns about this Privacy Policy, please contact us at ninhho
 | Photos, videos | ❌ No | - |
 | Contacts | ❌ No | - |
 | Microphone | ❌ No | - |
+| Health data | ❌ No | - |
 | Routines & settings | ✅ Yes | Device only |
 | Analytics data | ✅ Yes | Firebase |
 | Advertising ID | ✅ Yes | Google AdMob |

@@ -1,183 +1,192 @@
-# SpeakCount - App Description
+# SpeakC - App Description
 
 ## Tên App
-**SpeakCount** (trong code: counting-app, package: com.hoaninh.speakcount)
+**SpeakC: Voice Counter Timer** (package: com.hoaninh.speakcount)
 
 ---
 
-## Mô Tả Ngắn (Short Description)
+## Short Description
 *Cho Google Play (tối đa 80 ký tự)*
 
 ```
-Đếm số bằng giọng nói - Ứng dụng tập luyện và thiền với voice TTS
-```
-
-Hoặc tiếng Anh:
-```
-Voice counting app for workouts, meditation, and focus sessions
+Voice counter for workouts, meditation, breathing exercises and focus sessions
 ```
 
 ---
 
-## Mô Tả Đầy Đủ (Full Description)
-*Cho Google Play (tối đa 4000 ký tự)*
-
-### Tiếng Việt:
+## Full Description
+*Cho Google Play Store*
 
 ```
-SpeakCount - Ứng dụng đếm số bằng giọng nói
+SpeakC: Voice Counter Timer
 
-🎯 Đếm số thông minh cho tập luyện, thiền và quản lý thời gian
+SpeakC is a powerful voice counter and countdown timer designed for workouts, fitness training, breathing exercises, meditation, focus sessions, and daily routines.
 
-SpeakCount là ứng dụng đếm số đơn giản nhưng mạnh mẽ, sử dụng giọng nói Text-to-Speech (TTS) để đọc số trong khi bạn tập luyện hoặc thiền.
+Instead of checking your screen during every repetition, SpeakC counts aloud using clear voice guidance so you can stay focused on your workout.
 
-✨ TÍNH NĂNG CHÍNH:
+Create custom counting routines, set rounds, add rest periods, and let SpeakC handle the counting for you.
 
-📊 Quản lý Routine
-• Tạo và lưu nhiều bài đếm tùy chỉnh
-• Phân loại theo category: Tập luyện, Thiền, Ngủ, HIIT
-• Bật/tắt voice cho từng bài
-• Tốc độ đếm tùy chỉnh (0.5s - 5s/số)
+VOICE COUNTER FOR WORKOUTS
 
-🔢 Đếm Linh Hoạt
-• Đếm xuôi: 1 → 50
-• Đếm ngược: 50 → 1
-• Số vòng lặp tùy chỉnh
-• Tự động reset hoặc tiếp tục
+SpeakC works perfectly as a:
 
-🎤 Giọng Nói TTS
-• Đọc số bằng tiếng Việt hoặc tiếng Anh
-• Hoạt động offline (không cần internet)
-• Bật/tắt voice nhanh
+• Rep Counter
+• Voice Counter
+• Workout Counter
+• Fitness Counter
+• Exercise Counter
+• Repetition Counter
+• Countdown Timer
+• Interval Timer
 
-📳 Rung Phản Hồi
-• Rung nhẹ mỗi lần đổi số
-• Rung mạnh khi hoàn thành
-• Tùy chỉnh trong Settings
+Stay focused while SpeakC counts every repetition aloud.
 
-🌙 Các Chế Đế Mặc Định
-• Push-ups (Chống đẩy): 1-50, 3 vòng
-• Squat: 1-30, 3 vòng
-• Thiền 4-7-8: Đếm ngược hít thở
-• Đếm ngủ: Đếm ngược 1-100
+PERFECT FOR FITNESS TRAINING
 
-🎨 Giao Diện
-• Dark mode & Light mode
-• Thiết kế tối giản, tập trung
-• Hiển thị progress ring
-• Keep screen awake khi tập
+Use SpeakC for:
 
-⚙️ Cài Đặt
-• Tốc độ mặc định
-• Voice mặc định
-• Rung mặc định
-• Ngôn ngữ: Việt / English
+• Push Ups
+• Squats
+• Sit Ups
+• Pull Ups
+• Planks
+• Bench Press
+• Dumbbell Exercises
+• Home Workouts
+• Gym Training
+• HIIT Workouts
+• Circuit Training
 
-💡 CÁCH SỬ DỤNG:
+Create routines once and reuse them anytime.
 
-1. Mở app và xem danh sách routine có sẵn
-2. Tạo routine mới với nút ➕
-3. Chọn bài và nhấn ▶️ để bắt đầu
-4. Theo dõi tiến độ trên màn hình
-5. Nghe giọng đọc số khi đếm
-6. Hoàn thành và xem thống kê
+VOICE GUIDED COUNTING
 
-🔒 QUYỀN RIÊNG TƯ:
-• Không thu thập thông tin cá nhân
-• Không cần đăng nhập
-• Data lưu cục bộ trên thiết bị
-• Xem chi tiết tại: https://hoaninh94.github.io/speakcount-privacy/
+Hear every number spoken clearly.
 
-📱 YÊU CẦU HỆ THỐNG:
-• Android 6.0 (API 23) trở lên
-• iOS 16.0 trở lên
-• Không cần internet (ngoại trừ quảng cáo)
+Features:
 
-👨‍💻 PHÁT TRIỂN BỞI:
-Awesome All App
-Email: ninhhoa94@gmail.com
+• Forward counting
+• Reverse counting
+• Adjustable counting speed
+• Voice feedback
+• Hands-free counting
 
-📄 GIẤY PHÉP:
-Ứng dụng miễn phí với quảng cáo (AdMob)
-```
+No need to watch the screen during your workout.
 
-### English Version:
+MULTI-ROUND WORKOUT SUPPORT
 
-```
-SpeakCount - Voice Counting for Workouts & Meditation
+Build advanced workout routines with multiple rounds.
 
-🎯 Smart counting app with Text-to-Speech for fitness and mindfulness
+Example:
 
-SpeakCount is a simple yet powerful counting app that uses voice (TTS) to announce numbers during your workouts or meditation sessions.
+• Count 1 to 20
+• Repeat 5 rounds
+• Automatic restart after each round
 
-✨ KEY FEATURES:
+Perfect for strength training and interval workouts.
 
-📊 Routine Management
-• Create and save multiple custom counting routines
-• Categorize: Workout, Meditation, Sleep, HIIT
-• Toggle voice on/off per routine
-• Customizable counting speed (0.5s - 5s/number)
+REST TIMER
 
-🔢 Flexible Counting
-• Count up: 1 → 50
-• Count down: 50 → 1
-• Custom loop rounds
-• Auto reset or continue
+Add rest periods between rounds.
 
-🎤 Voice TTS
-• Number announcement in Vietnamese or English
-• Works offline (no internet needed)
-• Quick voice toggle
+• Custom rest duration
+• Automatic rest countdown
+• Better workout flow
 
-📳 Vibration Feedback
-• Light vibration on each number change
-• Strong vibration on completion
-• Customizable in Settings
+Ideal for HIIT and circuit training.
 
-🌙 Default Routines
-• Push-ups: 1-50, 3 rounds
-• Squats: 1-30, 3 rounds
-• 4-7-8 Meditation: Breath counting
-• Sleep count: Count down 1-100
+BREATHING AND MEDITATION
 
-🎨 User Interface
-• Dark mode & Light mode
-• Minimal, focus-oriented design
-• Progress ring display
-• Keep screen awake option
+SpeakC is also useful for:
 
-⚙️ Settings
-• Default speed
-• Default voice
-• Default vibration
-• Language: Vietnamese / English
+• Breathing exercises
+• Box breathing
+• Deep breathing
+• Meditation
+• Mindfulness practice
+• Focus training
 
-💡 HOW TO USE:
+Let the voice guide your counting while you focus on your breathing.
 
-1. Open the app and view available routines
-2. Create new routines with the ➕ button
-3. Select a routine and press ▶️ to start
-4. Track progress on screen
-5. Listen to voice announcements
-6. Complete and view statistics
+VIBRATION FEEDBACK
 
-🔒 PRIVACY:
+Optional vibration feedback for every count.
+
+Useful when:
+
+• Wearing headphones
+• Training outdoors
+• Working out in noisy environments
+
+SIMPLE AND CLEAN DESIGN
+
+• Modern dark mode
+• Easy routine management
+• Fast setup
+• No unnecessary complexity
+
+Create a routine and start counting in seconds.
+
+MAIN FEATURES
+
+✓ Voice Counter
+
+✓ Workout Timer
+
+✓ Rep Counter
+
+✓ Interval Timer
+
+✓ Multiple Rounds
+
+✓ Rest Timer
+
+✓ Vibration Feedback
+
+✓ Breathing Counter
+
+✓ Meditation Counter
+
+✓ Dark Mode
+
+✓ Custom Routines
+
+✓ Adjustable Speed
+
+WHO IS SPEAKC FOR?
+
+SpeakC is perfect for:
+
+• Fitness enthusiasts
+• Personal trainers
+• Home workout users
+• Gym members
+• Athletes
+• Yoga practitioners
+• Meditation users
+• Focus and productivity sessions
+
+Download SpeakC today and experience a smarter voice-guided counter for workouts, breathing exercises, and daily training routines.
+
+---
+
+🔒 PRIVACY
+
 • No personal data collection
 • No login required
 • Data stored locally on device
 • Privacy Policy: https://hoaninh94.github.io/speakcount-privacy/
 
-📱 SYSTEM REQUIREMENTS:
+📱 REQUIREMENTS
+
 • Android 6.0 (API 23) or later
 • iOS 16.0 or later
-• No internet required (except for ads)
+• Works offline (no internet required except for ads)
 
-👨‍💻 DEVELOPED BY:
+👨‍💻 DEVELOPED BY
+
 Awesome All App
 Email: ninhhoa94@gmail.com
-
-📄 LICENSE:
-Free app with advertisements (AdMob)
 ```
 
 ---
@@ -212,8 +221,8 @@ Free app with advertisements (AdMob)
 | Notifications (optional) | Reminders |
 
 ### Supported Languages
-- Vietnamese (vi)
 - English (en)
+- Vietnamese (vi)
 
 ---
 
@@ -226,9 +235,10 @@ Free app with advertisements (AdMob)
 
 ## Keywords (ASO)
 ```
-đếm số, voice counter, tập thể dục, thiền, meditation, 
-workout counter, breathing exercise, push ups, squats, 
-đếm ngược, count down, focus timer, mindfulness
+voice counter, rep counter, workout counter, fitness timer, 
+meditation counter, breathing exercises, interval timer, 
+countdown timer, push ups, squats, HIIT timer, gym counter,
+focus timer, mindfulness, home workout
 ```
 
 ---
@@ -272,3 +282,56 @@ workout counter, breathing exercise, push ups, squats,
 **Website:** (optional)  
 **Privacy Policy:** https://hoaninh94.github.io/speakcount-privacy/  
 **GitHub:** https://github.com/hoaninh94/speakcount-privacy
+
+---
+
+## Google Play Data Safety Form
+
+### Data Collected
+
+| Category | Collected? | Shared? |
+|----------|------------|---------|
+| Personal info | ❌ No | ❌ No |
+| Financial info | ❌ No | ❌ No |
+| Health and fitness | ❌ No | ❌ No |
+| Messages | ❌ No | ❌ No |
+| Photos and videos | ❌ No | ❌ No |
+| Audio files | ❌ No | ❌ No |
+| Files and docs | ❌ No | ❌ No |
+| Calendar | ❌ No | ❌ No |
+| Contacts | ❌ No | ❌ No |
+| App activity | ✅ Yes | ✅ Yes (Firebase Analytics) |
+| App info and performance | ✅ Yes | ✅ Yes (Firebase Crashlytics) |
+| Device or other identifiers | ✅ Yes | ✅ Yes (AdMob) |
+| Location | ❌ No | ❌ No |
+
+### Data Security
+
+| Question | Answer |
+|----------|--------|
+| Is data encrypted in transit? | Yes (HTTPS) |
+| Is data encrypted at rest? | N/A (local storage only) |
+| Can users request data deletion? | Yes (uninstall app) |
+
+### Committed to Play Families Policy
+
+| Question | Answer |
+|----------|--------|
+| Is your app designed for children? | No (suitable for all ages) |
+| Does your app comply with Families Policy? | Yes |
+
+---
+
+## Content Rating (IARC)
+
+| Content | Rating |
+|---------|--------|
+| Violence | None |
+| Sexual Content | None |
+| Language | None |
+| Controlled Substances | None |
+| User Interaction | None |
+| Location Sharing | None |
+| Digital Purchases | None |
+
+**Result:** Everyone (All ages)
