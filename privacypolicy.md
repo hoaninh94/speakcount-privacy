@@ -6,195 +6,246 @@
 
 ## 1. Introduction
 
-Thank you for using **SpeakCount** ("we," "our," or "the App"). This Privacy Policy explains how we collect, use, and protect your information when you use our application.
+Welcome to **SpeakCount** ("we," "our," or "the App"), a counting and focus timer application developed by **Awesome All App**. This Privacy Policy explains how we collect, use, and protect your information when you use our application.
 
-By using the application, you agree to the terms of this policy.
+By downloading, installing, or using the App, you agree to the terms of this Privacy Policy.
 
 ---
 
 ## 2. Information We Collect
 
-### 2.1 Usage Data
+### 2.1 Information Stored Locally on Your Device
 
-We use **Firebase Analytics** to collect information about how you use the application, including:
+The App stores the following information **locally on your device** using device storage (AsyncStorage):
 
-- Screens you have visited
-- Time spent using the application
-- Features used
-- Device and operating system (iOS/Android version)
-- Device language
-- General location (country/region, not precise location)
+- **Counting Routines:** Custom routines you create (name, count settings, rounds, speed)
+- **App Settings:** Voice preferences, vibration settings, theme preferences
+- **Usage History:** Session records (counts completed, time spent)
 
-**Purpose:** To improve user experience and develop new features.
+**Important:** This data is stored **only on your device**. We do not transmit this data to our servers. Deleting the App will permanently delete all local data.
 
-### 2.2 Count Data and Routines
+### 2.2 Analytics Data
 
-Your counting routines, exercises, and personal settings are stored **directly on your device** using **AsyncStorage**. We **DO NOT** store this data on our servers.
+We use **Firebase Analytics** to collect anonymous usage data, including:
 
-**This includes:**
-- Routine names
-- Count settings (start number, end number, rounds, speed)
-- Voice and vibration preferences
-- Usage history (if applicable)
+- App installation and opens
+- Screens viewed and features used
+- App crashes and performance metrics
+- Device type, OS version, and language
+- Approximate geographic region (country/region level, not precise location)
 
-### 2.3 Information We Do NOT Collect
+**Purpose:** To improve app performance, fix bugs, and develop new features.
 
-We **DO NOT** collect:
-- Name, email, phone number
-- Passwords or login credentials
-- Precise GPS location
-- Contacts, messages, or other personal data
-- Photos or videos
+### 2.3 Advertising Data
 
----
+We use **Google AdMob** to display advertisements. AdMob may collect:
 
-## 3. Permissions Required
-
-### 3.1 Microphone Permission (Optional)
-
-The app may request microphone access to record custom notification sounds (if this feature is enabled).
-
-**Note:** This permission is **optional**. You can deny it and the app will still work with default voices.
-
-### 3.2 Notification Permission (Optional)
-
-We may send notifications about workout reminders or app updates. This permission is optional.
-
-### 3.3 Other Permissions
-
-- **Vibration:** Vibrate during counting (configurable in settings)
-- **Keep Awake:** Keep screen on during counting (configurable)
-
----
-
-## 4. Advertisements
-
-The application uses **Google AdMob** to display advertisements. AdMob may collect information to show relevant ads.
-
-**Google AdMob may collect:**
-- Advertising ID
-- App usage data
+- Advertising ID (device identifier for personalized ads)
+- App usage data for ad targeting
 - Device information
+
+You can opt out of personalized ads in your device settings.
+
+### 2.4 Information We Do NOT Collect
+
+We **DO NOT** collect or store:
+
+| Data Type | Collected? |
+|-----------|------------|
+| Name, email, phone number | ❌ No |
+| Password or login credentials | ❌ No |
+| Precise GPS location | ❌ No |
+| Contacts or address book | ❌ No |
+| Photos or videos | ❌ No |
+| Messages or call logs | ❌ No |
+| Microphone recordings | ❌ No |
+
+---
+
+## 3. App Permissions
+
+### 3.1 Permissions Required
+
+The App requests the following permissions:
+
+| Permission | Purpose | Required? |
+|------------|---------|-----------|
+| **INTERNET** | Load advertisements via AdMob | Yes |
+| **VIBRATE** | Vibration feedback during counting | Yes |
+| **MODIFY_AUDIO_SETTINGS** | Adjust audio for voice playback | Yes |
+| **FOREGROUND_SERVICE** | Keep app running during counting sessions | Yes |
+| **FOREGROUND_SERVICE_MEDIA_PLAYBACK** | Play voice/audio in background | Yes |
+
+### 3.2 Optional Permissions
+
+| Permission | Purpose | Required? |
+|------------|---------|-----------|
+| **Notifications** | Reminders and updates | No (can be disabled) |
+
+### 3.3 Permissions We Do NOT Request
+
+We **DO NOT** request:
+
+- ❌ Camera
+- ❌ Microphone (we use system TTS, not recording)
+- ❌ GPS / Precise Location
+- ❌ Contacts
+- ❌ SMS / Phone
+
+---
+
+## 4. Third-Party Services
+
+### 4.1 Firebase (Google)
+
+We use the following Firebase services:
+
+| Service | Purpose |
+|---------|---------|
+| **Firebase Analytics** | Analyze app usage and crashes |
+| **Firebase Remote Config** | Remote feature configuration |
 
 **Google Privacy Policy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
 
-**Note:** You can opt out of personalized ads in your device's Google Ads settings.
+### 4.2 Google AdMob
+
+We use Google AdMob to display advertisements.
+
+**Data collected by AdMob:**
+- Advertising ID
+- Device information
+- App usage for ad personalization
+
+**Google AdMob Privacy:** [https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+**Opt out of personalized ads:**
+- **Android:** Settings → Google → Ads → Opt out of Ads Personalization
 
 ---
 
-## 5. Third-Party Services
+## 5. How We Use Your Data
 
-### 5.1 Firebase (Google)
+We use collected data for the following purposes:
 
-We use Firebase for:
-- **Analytics:** Analyzing app usage
-- **Remote Config:** Configuring features remotely
-
-[View Google's Privacy Policy](https://policies.google.com/privacy)
-
-### 5.2 Other Services
-
-The app may use other third-party services for:
-- Crash analysis
-- Text-to-Speech (TTS) voice
+| Purpose | Data Used |
+|---------|-----------|
+| Improve app performance | Analytics data, crash reports |
+| Display relevant ads | Advertising ID (via AdMob) |
+| Develop new features | Analytics data |
+| Fix bugs and crashes | Crash reports, device info |
 
 ---
 
-## 6. How We Use Your Information
+## 6. Data Storage and Security
 
-We use collected information to:
+### 6.1 Local Data Storage
 
-1. **Improve the app:** Analyze usage to develop new features
-2. **Display ads:** Through Google AdMob
-3. **Support users:** Respond to questions and feedback
-4. **Analyze crashes:** Fix bugs and improve performance
+| Data Type | Storage Location | Encrypted? |
+|-----------|------------------|-------------|
+| Routines & Settings | Device only (AsyncStorage) | No (local only) |
 
----
+### 6.2 Cloud Data Storage
 
-## 7. Data Security
+| Data Type | Storage Location | Retention |
+|-----------|------------------|-----------|
+| Analytics | Firebase (Google servers) | 14 months |
+| Crash Logs | Firebase (Google servers) | 30 days |
 
-We are committed to protecting your data:
+### 6.3 Security Measures
 
-- **Local data:** Stored on your device, deleting the app deletes all data
-- **Encryption:** Transmitted data is encrypted (HTTPS)
-- **No data selling:** We DO NOT sell or share personal data with third parties for marketing purposes
-
----
-
-## 8. Children's Privacy
-
-This app is suitable for all ages, including children under 13. We comply with COPPA (Children's Online Privacy Protection Act):
-
-- **No personal information collected** from children
-- **No login required** or contact information requested
-- **Data stored locally only** on device
+- All network communications use HTTPS encryption
+- We do not store personal identification data
+- We do not sell or share your data with third parties for marketing
 
 ---
 
-## 9. Your Rights
+## 7. Children's Privacy
 
-### 9.1 Delete Data
+This App is suitable for users of all ages, including children under 13 years old.
 
-To delete all data:
+**We comply with COPPA (Children's Online Privacy Protection Act):**
+
+- ✅ No personal information collection from children
+- ✅ No account registration required
+- ✅ No email, name, or phone number requested
+- ✅ Data stored locally on device only
+- ✅ No targeted advertising to children (AdMob may show general ads)
+
+Parents or guardians can contact us at ninhhoa94@gmail.com with any concerns about children's privacy.
+
+---
+
+## 8. Your Rights
+
+### 8.1 Delete Your Data
+
+Since all routine data is stored locally on your device:
+
 - **Android:** Settings → Apps → SpeakCount → Clear Data
 - **iOS:** Settings → SpeakCount → Clear App Data
 
-### 9.2 Opt Out of Analytics
+This will permanently delete all your routines and settings.
 
-You can disable analytics collection in app settings (if available).
+### 8.2 Opt Out of Analytics
 
-### 9.3 Opt Out of Personalized Ads
+You can disable Firebase Analytics collection:
 
-Go to device Google Settings → Ads → Opt out of personalized ads.
+- Check app settings for analytics toggle (if available)
 
----
+### 8.3 Opt Out of Personalized Ads
 
-## 10. Data Retention
-
-| Data Type | Storage Location | Retention Period |
-|-----------|------------------|-------------------|
-| Routines/Settings | Device (AsyncStorage) | Until app is deleted |
-| Usage Analytics | Firebase (Google) | 14 months (default) |
-| Crash Logs | Firebase (Google) | 30 days |
+- **Android:** Settings → Google → Ads → Opt out of Ads Personalization
 
 ---
 
-## 11. Policy Changes
+## 9. Data Retention
 
-We may update this policy at any time. Changes will be communicated via:
-- In-app notifications
+| Data Type | Location | Retention Period |
+|-----------|----------|------------------|
+| Routines & Settings | Device (local) | Until app deleted |
+| Analytics Data | Firebase | 14 months (auto-deleted) |
+| Crash Logs | Firebase | 30 days (auto-deleted) |
+| Ad Data | Google AdMob | Per Google policy |
+
+---
+
+## 10. Changes to This Policy
+
+We may update this Privacy Policy from time to time. Changes will be notified via:
+
+- In-app notification
 - Updated "Last updated" date on this page
 
-Continued use of the app after changes constitutes acceptance of the new policy.
+Continued use of the App after changes constitutes acceptance of the new policy.
 
 ---
 
-## 12. Contact Us
+## 11. Contact Us
 
-If you have questions about this Privacy Policy, please contact us:
+If you have questions or concerns about this Privacy Policy, please contact us:
 
-**Email:** ninhhoa94@gmail.com
-
-**Developer:** Awesome All App
+**Developer:** Awesome All App  
+**Email:** ninhhoa94@gmail.com  
+**GitHub:** [https://github.com/hoaninh94/speakcount-privacy](https://github.com/hoaninh94/speakcount-privacy)
 
 ---
 
-## 13. Quick Summary
+## 12. Quick Summary
 
-| Data | Collected? | Where Stored? |
-|------|------------|---------------|
-| Name, Email, Phone | ❌ No | - |
-| GPS Location | ❌ No | - |
-| Routines/Settings | ✅ Yes | Device (local) |
-| Usage Analytics | ✅ Yes | Firebase (Google) |
-| Advertising ID | ✅ Yes | Google AdMob |
-| Microphone | ⚠️ Optional | Not stored |
+| What We Collect | What We DON'T Collect |
+|-----------------|----------------------|
+| ✅ Anonymous analytics (Firebase) | ❌ Name, email, phone |
+| ✅ Advertising ID (AdMob) | ❌ Precise location |
+| ✅ Routine data (local only) | ❌ Contacts, photos, videos |
+| ✅ Crash reports | ❌ Passwords, credentials |
+| ✅ Device info (OS, model) | ❌ Microphone recordings |
 
 ---
 
 **Version:** 1.0.0  
-**Effective Date:** May 31, 2026
+**Effective Date:** May 31, 2026  
+**Developer:** Awesome All App
 
 ---
 
-*This Privacy Policy was created for SpeakCount to comply with Google Play Store requirements.*
+*This Privacy Policy is created for SpeakCount to comply with Google Play Store and Apple App Store requirements.*
