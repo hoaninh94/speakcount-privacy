@@ -1,4 +1,4 @@
-# Privacy Policy for SpeakC
+# Privacy Policy for SpeakCount
 
 **Last updated:** May 31, 2026  
 **Effective Date:** May 31, 2026  
@@ -8,7 +8,7 @@
 
 ## 1. Introduction
 
-Welcome to **SpeakC** (the "App"), a voice counter and countdown timer application developed by **Awesome All App** (the "Developer"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our application.
+Welcome to **SpeakCount** (the "App"), a voice counter and countdown timer application developed by **Awesome All App** (the "Developer"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our application.
 
 By downloading, installing, or using the App, you agree to the terms of this Privacy Policy. If you do not agree with this policy, please do not use the App.
 
@@ -230,7 +230,7 @@ While we implement security measures, no method of electronic transmission or st
 ### 8.2 Data Deletion
 
 **To delete your local data:**
-- **Android:** Settings → Apps → SpeakC → Storage → Clear Data
+- **Android:** Settings → Apps → SpeakCount → Storage → Clear Data
 - **Alternative:** Uninstall the App
 
 **To delete Firebase Analytics data:**
@@ -357,7 +357,7 @@ Continued use of the App after changes constitutes acceptance of the new policy.
 **Privacy Policy URL:** [https://hoaninh94.github.io/speakcount-privacy/](https://hoaninh94.github.io/speakcount-privacy/)  
 **GitHub:** [https://github.com/hoaninh94/speakcount-privacy](https://github.com/hoaninh94/speakcount-privacy)
 
-For questions or concerns about this Privacy Policy, please contact us at ninhhoa94@gmail.com with the subject "Privacy Policy - SpeakC".
+For questions or concerns about this Privacy Policy, please contact us at ninhhoa94@gmail.com with the subject "Privacy Policy - SpeakCount".
 
 ---
 

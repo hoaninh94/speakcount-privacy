@@ -1,7 +1,7 @@
-# SpeakC - App Description
+# SpeakCount - App Description
 
 ## Tên App
-**SpeakC: Voice Counter Timer** (package: com.hoaninh.speakcount)
+**SpeakCount: Voice Counter Timer** (package: com.hoaninh.speakcount)
 
 ---
 
@@ -18,17 +18,17 @@ Voice counter for workouts, meditation, breathing exercises and focus sessions
 *Cho Google Play Store*
 
 ```
-SpeakC: Voice Counter Timer
+SpeakCount: Voice Counter Timer
 
-SpeakC is a powerful voice counter and countdown timer designed for workouts, fitness training, breathing exercises, meditation, focus sessions, and daily routines.
+SpeakCount is a powerful voice counter and countdown timer designed for workouts, fitness training, breathing exercises, meditation, focus sessions, and daily routines.
 
-Instead of checking your screen during every repetition, SpeakC counts aloud using clear voice guidance so you can stay focused on your workout.
+Instead of checking your screen during every repetition, SpeakCount counts aloud using clear voice guidance so you can stay focused on your workout.
 
-Create custom counting routines, set rounds, add rest periods, and let SpeakC handle the counting for you.
+Create custom counting routines, set rounds, add rest periods, and let SpeakCount handle the counting for you.
 
 VOICE COUNTER FOR WORKOUTS
 
-SpeakC works perfectly as a:
+SpeakCount works perfectly as a:
 
 • Rep Counter
 • Voice Counter
@@ -39,7 +39,7 @@ SpeakC works perfectly as a:
 • Countdown Timer
 • Interval Timer
 
-Stay focused while SpeakC counts every repetition aloud.
+Stay focused while SpeakCount counts every repetition aloud.
 
 PERFECT FOR FITNESS TRAINING
 
@@ -60,16 +60,6 @@ Use SpeakC for:
 Create routines once and reuse them anytime.
 
 VOICE GUIDED COUNTING
-
-Hear every number spoken clearly.
-
-Features:
-
-• Forward counting
-• Reverse counting
-• Adjustable counting speed
-• Voice feedback
-• Hands-free counting
 
 No need to watch the screen during your workout.
 
@@ -97,7 +87,7 @@ Ideal for HIIT and circuit training.
 
 BREATHING AND MEDITATION
 
-SpeakC is also useful for:
+SpeakCount is also useful for:
 
 • Breathing exercises
 • Box breathing
@@ -153,9 +143,9 @@ MAIN FEATURES
 
 ✓ Adjustable Speed
 
-WHO IS SPEAKC FOR?
+WHO IS SPEAKCOUNT FOR?
 
-SpeakC is perfect for:
+SpeakCount is perfect for:
 
 • Fitness enthusiasts
 • Personal trainers
@@ -166,7 +156,7 @@ SpeakC is perfect for:
 • Meditation users
 • Focus and productivity sessions
 
-Download SpeakC today and experience a smarter voice-guided counter for workouts, breathing exercises, and daily training routines.
+Download SpeakCount today and experience a smarter voice-guided counter for workouts, breathing exercises, and daily training routines.
 
 ---
 
